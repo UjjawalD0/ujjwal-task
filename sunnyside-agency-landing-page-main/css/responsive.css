@@ -1,0 +1,110 @@
+
+@media only screen and (max-width: 2000px) and (min-width: 1100px){
+    .heroSec h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 1100px) and (min-width: 901px){
+    .img_text_card_box_text{
+        padding: 5%;
+        line-height: 100% ;
+    }
+    .img_text_card_box_text h1{
+        line-height: 100% ;
+        font-size: 2.3rem;
+    }
+    .img_text_card_box_text label{
+        line-height: 110% ;
+
+    }
+    .img_text_card_box_text a{
+        font-size: 1.1rem;
+
+    }
+}
+@media only screen and (max-width: 899px) and (min-width: 701px){
+    .img_text_card_box_text{
+        padding: 3%;
+        line-height: 100% ;
+    }
+    .img_text_card_box_text h1{
+        line-height: 100% ;
+        font-size: 2rem;
+    }
+    .img_text_card_box_text label{
+        line-height: 100% ;
+
+    }
+    .img_text_card_box_text a{
+        font-size: 1rem;
+
+    }
+    .twoL, .twoR{
+        height: 400px;
+    }
+    .testi{
+        padding: 30px 3%;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 1px){
+    .img_text_card .img_text_card_box{
+        flex-direction: column;
+    }
+    .img_text_card .img_text_card_box .img_text_card_box_text {
+        width: 100% ;
+        /* display: block;
+        flex-direction: column; */
+        order: 1;
+        padding: 50px 30px;
+        text-align: center;
+    }
+    .img_text_card .img_text_card_box .img_text_card_box_img {
+        width: 100% ;
+        order: -1;
+    }
+    .img_text_card_box_text h1{
+        line-height: 100% ;
+        font-size: 1.5rem;
+    }
+    .img_text_card_box_text label{
+        line-height: 100% ;
+        font-size: 16px;
+    }
+    .img_text_card_box_text a{
+        font-size: .9rem;
+
+    }
+    .twoImg{
+        flex-direction: column;
+    }
+    .twoImg .twoL {
+        width: 100% ;
+    }
+    .twoImg .twoR {
+        width: 100% ;
+    }
+    .testi_list{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

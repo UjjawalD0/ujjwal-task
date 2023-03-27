@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.for_delete {
+  height: 400px;
+  background-color: red;
+  width: 100%;
+}
+
+.header {
+  background-image: url("../images/desktop/image-header.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+}
+.header .nav {
+  display: flex;
+  padding: 40px 30px;
+  justify-content: space-between;
+}
+.header .nav_link ul {
+  display: flex;
+  gap: 40px;
+}
+.header .nav_link ul li {
+  list-style: none;
+}
+.header .nav_link ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.header .nav_link ul li .nav_contact {
+  color: #262626;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.header .nav_link ul li .nav_contact:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+.header .nav_ham {
+  display: none;
+  padding: 1px 20px;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+.header .heroSec {
+  text-align: center;
+  color: white;
+}
+.header .heroSec h1 {
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.header .heroSec img {
+  height: 70%;
+  margin-top: 30px;
+}
+
+.img_text_card {
+  width: 100%;
+  height: auto;
+}
+.img_text_card_box {
+  display: flex;
+}
+.img_text_card_box_text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  order: -1;
+  flex-direction: column;
+  padding: 0 10%;
+}
+.img_text_card_box_text label {
+  color: #525252;
+  font-size: 1.2rem;
+  padding: 20px 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.img_text_card_box_text h1 {
+  color: #262626;
+  line-height: 150%;
+  font-size: 3rem;
+}
+.img_text_card_box_text a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #262626;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.img_text_card_box_img {
+  width: 50%;
+}
+.img_text_card_box_img img {
+  width: 100%;
+}
+
+.twoImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: aqua;
+}
+.twoImg .twoL {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 50%;
+  position: relative;
+}
+.twoImg .twoL .twoLtext {
+  color: rgb(11, 77, 24);
+  text-align: center;
+  padding: 9% 10%;
+  bottom: 0px;
+  position: absolute;
+}
+.twoImg .twoR {
+  background-image: url("../images/desktop/image-photography.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+.twoImg .twoR .twoRtext {
+  color: rgb(11, 59, 77);
+  text-align: center;
+  padding: 9% 10%;
+  bottom: 0px;
+  position: absolute;
+}
+
+.testi {
+  padding: 50px 10%;
+  text-align: center;
+}
+.testi_h1 {
+  color: #525252;
+  font-size: 1rem;
+  padding: 40px 0;
+}
+.testi_list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.testi_list_box_img img {
+  border-radius: 50%;
+  width: 20%;
+}
+.testi_list_box_text span {
+  padding: 50px 0;
+  display: block;
+  color: #525252;
+}
+.testi_list_box_text h3 {
+  color: #262626;
+  padding: 10px 0;
+}
+.testi_list_box_text label {
+  color: #525252;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+.gallery img {
+  width: 25%;
+}
+
+.fotter {
+  text-align: center;
+  background-color: #90d4c5;
+  color: #2a7362;
+  padding: 50px;
+}
+.fotter a {
+  color: #2a7362;
+  text-decoration: none;
+}
+.fotter a :hover {
+  color: white;
+}
+.fotter_nav {
+  padding: 50px 0 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fotter_nav a {
+  padding: 0 30px;
+  text-decoration: none;
+}
+.fotter_nav a :hover {
+  color: white !important;
+}
+.fotter_social_icon a {
+  padding: 0 10px;
+}
+.fotter_social_icon a :hover {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
